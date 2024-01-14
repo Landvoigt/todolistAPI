@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'timvoigt1996.pythonanywhere.com',
-    '127.0.0.1:8000',
+    '127.0.0.1',
     'localhost',
 ]
 
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'todo',
 ]
 
 MIDDLEWARE = [
